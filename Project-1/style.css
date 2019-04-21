@@ -1,0 +1,127 @@
+/* Global Styling */
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+section {
+  height:200px;
+  width: 200px;
+  border-radius: 50%;
+  margin: -5px 0px -10px;
+}
+
+.moving-ball{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: absolute;
+  border: black 1px solid;
+  animation: ballMovement 5s infinite;
+}
+
+@keyframes ballMovement{
+  0%{
+    transform: translate(-550px, 75px);
+
+  }
+  15%{
+    transform: translate(-350px, 75px);
+
+  }
+  30%{
+    transform: translate(-150px, 75px);
+
+  }
+  45%{
+    transform: translate(0, 75px);
+
+
+  }
+  60%{
+
+  }
+  75%{
+
+  }
+  90%{
+
+  }
+  100%{
+
+  }
+}
+
+
+
+.one {
+  background-color: #00FF40;
+}
+
+.two {
+  background-color: #0FFF5B;
+}
+
+.three{
+  background-color: #2AFF8E;
+
+}
+
+.four{
+  background-color: #35FFA6;
+
+}
+
+.five{
+  background-color: #3EFFBD;
+}
+
+.six{
+  background-color: #45FFD4;
+}
+
+.seven{
+  background-color: #49FFE9;
+}
+
+.eight{
+  background-color: #4BFFFF;
+}
+
+.nine{
+  background-color: #49E9FF;
+}
+
+.ten{
+  background-color: #45D4FF;
+}
+
+.eleven{
+  background-color: #3EBDFF;
+}
+
+.twelve{
+  background-color: #35A6FF;
+}
+
+.thirteen{
+  background-color: #2A8EFF;
+}
+
+.fourteen{
+  background-color: #1E74FF;
+}
+
+.fifteen{
+  background-color: #0F5BFF;
+}
